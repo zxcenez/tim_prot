@@ -77,8 +77,12 @@
 }
 
 .button_pricing:hover {
-    background-color: #f2f2f2;
-    border: solid 2px #000000;
+    background-color: #161616;
+    color: #EEE;
+}
+
+.text_but_span_pricing:hover {
+    color: #EEE;
 }
 
 .red2 {
@@ -91,6 +95,8 @@
 
 // 
 .text_but_span_pricing {
+    transition: 0.3s;
+    position: relative;
     color: #546269;
     vertical-align: top;
     margin: auto;

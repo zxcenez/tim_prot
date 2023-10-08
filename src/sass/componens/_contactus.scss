@@ -1,0 +1,83 @@
+.contactus {
+    margin-top: 9%;
+}
+
+// img
+.img_contactus {
+    width: 470px;
+    height: 420px;
+    margin-right: 50px;
+}
+
+// flex
+.contactus_flex {
+    display: flex;
+    justify-content: center;
+}
+
+// title
+.h1_titl {
+    padding: 20px;
+    color: #000;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 80px;
+}
+
+// text
+.p_contactus {
+    padding: 20px;
+    color: #8F95A5;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    width: 680px;
+}
+
+// input>button
+.input_contactus {
+    width: 450px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid #8F95A5;
+    //text
+    color: #8F95A5;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 20px;
+}
+
+// but
+.button_contactus {
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    background: #263238;
+    transition: 0.2s;
+    cursor: pointer;
+
+    // text
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.button_contactus:hover {
+    background-color: #FFF;
+    color: #000;
+}
+
+.but_input_contactus {
+    padding: 20px;
+}
