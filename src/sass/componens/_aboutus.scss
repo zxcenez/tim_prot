@@ -1,103 +1,337 @@
-.pp {
-position: absolute;
-color: #8F95A5;
-width: 635px;
-margin-top: 100px;
-right: 755px;
+// .pp {
+// color: #8F95A5;
+// width: 635px;
+// margin-top: 100px;
+
+// }
+
+// .Aboutus {
+// color: #000;
+// background-clip: border-box;
+// background-image: none;
+// font-family: Poppins;
+// font-size: 48px;
+// font-style: normal;
+// font-weight: 600;
+// line-height: 80px; /* 166.667% */
+// }
+
+// .wow {
+// margin-top: 200px;
+// color: #2A3246;
+// font-family: Poppins;
+// font-size: 48px;
+// font-style: normal;
+// font-weight: 600;
+// line-height: 80px; /* 166.667% */
+
+// }
+
+// .waw {
+
+
+// margin-top: 200px;
+// color: #2A3246;
+// font-family: Poppins;
+// font-size: 48px;
+// font-style: normal;
+// font-weight: 600;
+// line-height: 80px; /* 166.667% */
+// }
+
+// .www {
+
+// color: #2A3246;
+
+// margin-top: 200px;
+// font-family: Poppins;
+// font-size: 48px;
+// font-style: normal;
+// font-weight: 600;
+// line-height: 80px; /* 166.667% */
+// }
+
+
+// .photo {
+
+// right: 100px;
+// width: 500px;
+// height: 500px;
+// margin-top: -100px;
+// }
+
+// .Pupils {
+
+// color: #8F95A5;
+// margin-top: 240px;
+
+// font-family: Poppins;
+// font-size: 20px;
+// font-style: normal;
+// font-weight: 400;
+// line-height: normal;
+// }
+
+
+// .Teachers {
+
+// color: #8F95A5;
+
+// margin-top: 220px;
+// font-family: Poppins;
+// font-size: 20px;
+// font-style: normal;
+// font-weight: 400;
+// line-height: normal;
+// }
+
+// .languages {
+
+// color: #8F95A5;
+
+// margin-top: 203px;
+// font-family: Poppins;
+// font-size: 20px;
+// font-style: normal;
+// font-weight: 400;
+// line-height: normal;
+// }
+
+.aboutus {
+    padding-top: 242px;
+    padding-bottom: 228px;
+    @media screen and (max-width:1199px) {
+        padding-bottom: 125px;
+        padding-top: 106px;
+    }
+    @media screen and (max-width:991px) {
+        padding-top: 52px;
+        padding-bottom: 84px;
+    }
+    @media screen and (max-width:767px) {
+        padding-top: 84px;
+        padding-bottom: 132px;
+    }
+    @media screen and (max-width:574px) {
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
 }
 
-.Aboutus {
-position: absolute;
+
+
+.conteiner {
+    margin: 0px auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 1315px;
+    @media screen and (max-width:1199px) {
+        padding-top: 135px;
+        padding-bottom: 101px;
+    }
+    @media screen and (max-width:991px) {
+        padding-top: 88px;
+        padding-bottom: 93px;
+    }
+    @media screen and (max-width:767px) {
+        padding-top: 187px;
+        padding-bottom: 364px;
+    }
+    @media screen and (max-width:574px) {
+        padding-top: 154px;
+        padding-bottom: 572px;
+    }
+}
+
+.Aboutush2 {
 color: #000;
-right: 1200px;
-background-clip: border-box;
-background-image: none;
 font-family: Poppins;
 font-size: 48px;
 font-style: normal;
 font-weight: 600;
 line-height: 80px; /* 166.667% */
+margin-bottom: 30px;
+@media screen and (max-width:1199px) {
+        padding-top: 106px;
+        padding-bottom: 386px;
+}
+@media screen and (max-width:991px) {
+    padding-top: 52px;
+    padding-bottom: 344px;
+}   
+@media screen and (max-width:767px) {
+    padding-top: 84px;
+    padding-bottom: 739px;
+}
+@media screen and (max-width:574px) {
+    padding-top: 50px;
+    padding-bottom: 879px;
+}
+}
+
+ul {
+    list-style: none;
+}
+
+.pp {
+width: 635px;
+margin-bottom: 70px;
+color: #8F95A5;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+@media screen and (max-width:1199px) {
+        padding-top: 199px;
+        padding-bottom: 234px;
+}
+@media screen and (max-width:991px) {
+    padding-top: 131px;
+    padding-bottom: 135px;
+}
+@media screen and (max-width:767px) {
+        padding-top: 564px;
+        padding-bottom: 192px;
+}
+@media screen and (max-width:574px) {
+    padding-top: 460px;
+    padding-bottom: 349px;
+}
 }
 
 .wow {
-position: absolute;
-margin-top: 200px;
-right: 1290px;
 color: #2A3246;
 font-family: Poppins;
 font-size: 48px;
 font-style: normal;
 font-weight: 600;
 line-height: 80px; /* 166.667% */
+margin: 0px auto;
+text-align: center;
+@media screen and (max-width:1199px) {
+        padding-top: 355px;
+        padding-bottom: 137px;
+}
+@media screen and (max-width:991px) {
+    padding-top: 302px;
+    padding-bottom: 94px;
+}
 
+@media screen and (max-width:767px) {
+    padding-top: 687px;
+    padding-bottom: 136px;
+}
+@media screen and (max-width:574px) {
+    padding-top: 628px;
+    padding-bottom: 301px;
+}
 }
 
 .waw {
-position: absolute;
-right: 1150px;
-margin-top: 200px;
-color: #2A3246;
+color: #8F95A5;
 font-family: Poppins;
-font-size: 48px;
+font-size: 20px;
 font-style: normal;
-font-weight: 600;
-line-height: 80px; /* 166.667% */
+font-weight: 400;
+line-height: normal;
+margin: 0px auto;
+text-align: center;
+@media screen and (max-width:1199px) {
+        padding-top: 423px;
+        padding-bottom: 125px;
+}
+@media screen and (max-width:991px) {
+    padding-top: 372px;
+    padding-bottom: 84px;
+}
+@media screen and (max-width:767px) {
+    padding-top: 750px;
+    padding-bottom: 132px;
+}
+@media screen and (max-width:574px) {
+    padding-top: 905px;
+    padding-bottom: 84px;
 }
 
-.www {
-position: absolute;
-color: #2A3246;
-right: 1000px;
-margin-top: 200px;
-font-family: Poppins;
-font-size: 48px;
-font-style: normal;
-font-weight: 600;
-line-height: 80px; /* 166.667% */
 }
 
+.aboutusul {
+    display: flex;
+    @media screen and (max-width:1199px) {
+        padding-top: 205px;
+        padding-bottom: 130px;
+    }
+    @media screen and (max-width:991px) {
+        padding-top: 134px;
+        padding-bottom: 92px;
+    }
+    @media screen and (max-width:767px) {
+        padding-top: 564px;
+        padding-bottom: 138px;
+    }
+    @media screen and (max-width:574px) {
+        padding-top: 465px;
+        padding-bottom: 84px;
+    }
+}
+
+.aboutusli:not(:last-child) {
+    margin-right: 150px;
+    @media screen and (max-width:1199px) {
+        padding-top: 377px;
+        padding-bottom: 124px;
+    }
+    @media screen and (max-width:991px) {
+        padding-top: 333px;
+        padding-bottom: 92px;
+    }
+    @media screen and (max-width:767px) {
+        padding-top: 709px;
+        padding-bottom: 138px;
+    }
+    @media screen and (max-width:574px) {
+        padding-top: 653px;
+        padding-bottom: 84px;
+    }
+}
 
 .photo {
-position: absolute;
-right: 100px;
-width: 500px;
-height: 500px;
-margin-top: -100px;
+    display: flex;
+    @media screen and (max-width:1199px) {
+        padding-top: 135px;
+        padding-bottom: 105px;
+    }
+    @media screen and (max-width:991px) {
+        padding-top: 88px;
+        padding-bottom: 93px;
+    }
+    @media screen and (max-width:767px) {
+        padding-top: 187px;
+        padding-bottom: 364px;
+    }
+    @media screen and (max-width:574px) {
+        padding-top: 154px;
+        padding-bottom: 572px;
+    }
 }
 
-.Pupils {
-position: absolute;
-color: #8F95A5;
-margin-top: 240px;
-right: 1300px;
-font-family: Poppins;
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-}
-
-
-.Teachers {
-position: absolute;
-color: #8F95A5;
-right: 1130px;
-margin-top: 220px;
-font-family: Poppins;
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-}
-
-.languages {
-position: absolute;
-color: #8F95A5;
-right: 900px;
-margin-top: 203px;
-font-family: Poppins;
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+.aboutuscolor {
+    margin-right: 200px;
+    @media screen and (max-width:1199px) {
+        padding-top: 128px;
+        padding-bottom: 132px;
+    }
+    @media screen and (max-width:991px) {
+        padding-top: 81px;
+        padding-bottom: 87px;
+    }
+    @media screen and (max-width:767px) {
+        padding-top: 47px;
+        padding-bottom: 130px;
+    }
+    @media screen and (max-width:574px) {
+        padding-top: 75px;
+        padding-bottom: 84px;
+    }
 }
