@@ -5,9 +5,50 @@
     margin: auto;
     width: 1200px;
     border: solid 1px #C4C4C4;
-    margin-bottom: 200px;
+    margin-bottom: 20px;
+}
+
+.red_foot_logo_footer {
+    margin-right: 26%;
 }
 
 .footer {
     margin-top: 150px;
+}
+
+.red_liszka {
+    list-style: none;
+}
+
+.ul_fot {
+    display: flex;
+}
+
+.li_foot_colo {
+    color: #8F95A5;
+
+}
+
+.li_footer_red {
+    padding-right: 25px;
+    text-decoration: none;
+    color: #8F95A5;
+
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    transition: 0.3s;
+}
+
+.li_footer_red:hover {
+    color: #6b6c70;
+}
+
+.footer_flex {
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    padding-bottom: 20px;
 }
