@@ -1,4 +1,41 @@
-<header>
+
+  <header class = "header">
+    <div class="container header__container">
+        <div class="red_fleg_header_burg">
+            <div class="lolo_logo_burg">
+                <p class="logo2">Brit<span class="lex_teht_red2">lex</span></p>
+            </div>
+            <div class="menu-burger__header">
+                <span></span>
+            </div>
+        </div>
+
+        <nav class="header__nav">
+            
+            <ul class="menu header__menu">
+                <li><p class="logo">Brit<span class="lex_teht_red">lex</span></p></li>
+                <li><a href="" class="menu__item">Home</a></li>
+                <li><a href="" class="menu__item">Skills</a></li>
+                <li><a href="" class="menu__item">About Us</a></li>
+                <li><a href="" class="menu__item">Pricing</a></li>
+                <li><a href="" class="menu__item">Contacts</a></li>
+                <div class="div-button_header">
+                    <button type="button" class="bitn_red_header">Let’s Talk</button>
+                </div>
+            </ul>
+        </nav>
+    </div>
+  </header>
+  <script>
+    $(document).ready(function () {
+    $('.menu-burger__header').click(function () {
+        $('.menu-burger__header').toggleClass('open-menu');
+        $('.header__nav').toggleClass('open-menu');
+        $('body').toggleClass('fixed-page');
+    });
+});
+  </script>
+  <!-- <header>
     <div class="heder_flex">
       <div class="div-logo_header">
         <p class="logo">Brit<span class="lex_teht_red">lex</span></p>
@@ -24,4 +61,4 @@
         <button type="button" class="bitn_red_header">Let’s Talk</button>
       </div>
     </div>
-  </header>
+  </header> -->

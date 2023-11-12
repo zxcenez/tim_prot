@@ -154,3 +154,13 @@
     margin-left: 150px;
     height: 247px;
 }
+
+@media(max-width: 1920px) and (min-width:1025px) {
+    .conteiner {
+        margin: 0 50vh
+    }
+}
+
+@media(max-width: 1025px) and (min-width:992px){
+    
+}

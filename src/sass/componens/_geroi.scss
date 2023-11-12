@@ -65,3 +65,23 @@
     left: 520px;
     top: 220px;
 }
+
+@media(max-width: 1920px) and (min-width:1025px) {
+    .pos_img_red {
+        top: 200px;
+        left: 720px;
+    }
+}
+
+@media(max-width: 1025px) and (min-width:992px) {
+    .img_glav_geroi_red {
+        height: 450px;
+        padding-left: 50px;
+    }
+
+    .red_titgero {
+        font-size: 45px;
+        width: 170px;
+        line-height: 45px;
+    }
+}
