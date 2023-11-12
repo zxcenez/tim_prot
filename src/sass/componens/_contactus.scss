@@ -81,3 +81,41 @@
 .but_input_contactus {
     padding: 20px;
 }
+
+
+@media(max-width: 992px) and (min-width:767px) {
+    .contactus {
+        margin-top: 15%;
+    }
+
+    .img_contactus {
+
+        width: 340px;
+        height: 360px;
+    }
+
+    .input_contactus {
+        width: 330px;
+    }
+
+    .p_contactus {
+        width: 400px;
+    }
+}
+
+@media(max-width: 767px) {
+    .img_contactus {
+        width: 250px;
+        height: 260px;
+        margin-top: 50px;
+        margin-right: 0px;
+    }
+
+    .input_contactus {
+        width: 270px;
+    }
+
+    .p_contactus {
+        width: 500px;
+    }
+}

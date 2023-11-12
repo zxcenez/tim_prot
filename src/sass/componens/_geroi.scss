@@ -66,6 +66,8 @@
     top: 220px;
 }
 
+
+
 @media(max-width: 1920px) and (min-width:1025px) {
     .pos_img_red {
         top: 200px;
@@ -73,7 +75,29 @@
     }
 }
 
-@media(max-width: 1025px) and (min-width:992px) {
+@media(max-width: 1496px) and (min-width:1025px) {
+    .pos_img_red {
+        top: 200px;
+        left: 510px;
+    }
+
+    body {
+        background-color: aquamarine;
+    }
+}
+
+@media(max-width: 1024px) and (min-width:992px) {
+
+    .pos_img_red {
+        position: absolute;
+        top: 120px;
+        left: 250px;
+    }
+
+    .flex__geroi {
+        margin-top: 20px;
+    }
+
     .img_glav_geroi_red {
         height: 450px;
         padding-left: 50px;
@@ -83,5 +107,85 @@
         font-size: 45px;
         width: 170px;
         line-height: 45px;
+    }
+}
+
+@media(max-width: 992px) and (min-width:767px) {
+    .flex__geroi {
+        margin-top: 50px;
+    }
+}
+
+@media(max-width: 767px) and (min-width:575px) {
+
+
+    .img_glav_geroi_red {
+        height: 360px;
+        padding-left: 0;
+        width: 330px;
+    }
+
+    .flex__geroi {
+        margin-top: 100px;
+    }
+
+    .red_titgero {
+        font-size: 50px;
+        width: 340px;
+    }
+
+    .text_pod_tit_geroi {
+        font-size: 23px;
+        margin-top: 15px;
+    }
+
+    .pos_img_red {
+        top: 180px;
+        left: 230px;
+    }
+
+    body {
+        background-color: rgb(199, 159, 236);
+    }
+}
+
+@media(max-width: 576px) and (min-width:321px) {
+    body {
+        background-color: rgba(95, 158, 160, 0.444);
+    }
+
+    .img_glav_geroi_red {
+        height: 400px;
+        padding-left: 0;
+    }
+
+    .pos_img_red {
+        display: none;
+    }
+
+    .red_titgero {
+        width: 450px;
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .flex__geroi {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        align-content: center;
+    }
+
+    .text_pod_tit_geroi {
+        text-align: center;
+        margin-top: 10px;
+        font-size: 16px;
+    }
+
+    .but_geroi {
+        display: block;
+        margin: auto;
+        margin-top: 30px;
     }
 }

@@ -52,3 +52,19 @@
     display: flex;
     padding-bottom: 20px;
 }
+
+@media(max-width: 992px) and (min-width:767px) {
+    .solid_footer {
+        width: 900px;
+    }
+}
+
+@media(max-width: 767px) {
+    .solid_footer {
+        width: 740px;
+    }
+
+    .redqwe {
+        display: contents;
+    }
+}

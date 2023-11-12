@@ -156,11 +156,175 @@
 }
 
 @media(max-width: 1920px) and (min-width:1025px) {
-    .conteiner {
-        margin: 0 50vh
+    // .conteiner {
+    //     margin: 0 50vh
+    // }
+}
+
+@media(max-width: 1496px) and (min-width:1025px) {
+    .box1_skil {
+        height: 850px;
+    }
+
+    .box2_skil {
+        height: 500px;
+    }
+
+    .red22 {
+        height: 220px;
+    }
+
+    .box3_skil {
+        height: 500px;
+    }
+
+    .img_box1__skilbox333 {
+        height: 200px;
+        width: 430px;
     }
 }
 
-@media(max-width: 1025px) and (min-width:992px){
-    
+@media(max-width: 1025px) and (min-width:992px) {}
+
+@media(max-width: 992px) and (min-width:767px) {
+    body {
+        background-color: bisque;
+    }
+
+    .conteiner {
+        margin: 0 5vh;
+    }
+
+    .img_box1__skil {
+        height: 300px;
+    }
+
+    .pad_red_box_skill {
+        margin: 0 20px;
+    }
+
+    .p_box_skil {
+        width: 250px;
+    }
+
+    .p_box_skil_obza {
+        width: 260px;
+    }
+
+    .box1_skil {
+        width: 330px;
+        height: 810px;
+    }
+
+    .box2_skil {
+        width: 300px;
+        height: 500px;
+    }
+
+    .red22 {
+        height: 178px;
+        margin-left: 90px;
+    }
+
+    .box3_skil {
+        width: 300px;
+        height: 500px;
+    }
+
+    .img_box1__skilbox333 {
+        height: 200px;
+        width: 300px;
+    }
+
+    .box4_skil {
+        width: 610px;
+        height: 300px;
+    }
+
+    .img_box1__skilbox44 {
+        height: 240px;
+    }
 }
+
+@media(max-width: 767px) and (min-width:575px) {
+    .conteiner {
+        margin: 0px 3vh;
+    }
+
+    .box1_skil {
+        width: 236px;
+        height: 810px;
+    }
+
+    .img_box1__skil {
+        width: 236px;
+    }
+
+    .pad_red_box_skill {
+        margin: 0 10px
+    }
+
+    .p_box_skil {
+        width: 220px;
+    }
+
+    .p_box_skil_obza {
+        width: 200px;
+    }
+
+    .button_skil {
+        width: 180px;
+        height: 50px;
+    }
+
+    // 2
+
+    .box2_skil {
+        width: 240px;
+    }
+
+    .red22 {
+        margin-left: 0;
+    }
+
+    // 3
+    .box3_skil {
+        width: 230px;
+    }
+
+    .img_box1__skilbox333 {
+        width: 255px;
+        height: 245px;
+    }
+
+    .box4_skil {
+        width: 480px;
+        height: 255px;
+    }
+
+    .img_box1__skilbox44 {
+        height: 200px;
+        position: absolute;
+        top: 1186px;
+        right: -18px;
+    }
+
+    .titl_box_skil {
+        padding-bottom: 0;
+    }
+
+    .redqwe {
+        width: 300px;
+    }
+
+
+}
+
+@media(max-width: 576px) and (min-width:321px) {
+    .box4_skil {
+        width: 300px;
+        height: 500px
+    }
+}
+
+// it is  problem
