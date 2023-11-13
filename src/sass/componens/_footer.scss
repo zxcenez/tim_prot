@@ -68,3 +68,13 @@
         display: contents;
     }
 }
+
+@media(max-width: 576px) and (min-width:321px) {
+    .solid_footer {
+        width: 500px;
+    }
+
+    .red_foot_logo_footer {
+        margin-right: 0;
+    }
+}

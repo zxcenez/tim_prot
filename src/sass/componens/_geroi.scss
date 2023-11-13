@@ -189,3 +189,42 @@
         margin-top: 30px;
     }
 }
+
+@media(max-width: 322px) {
+    .img_glav_geroi_red {
+        height: 300px;
+        padding-left: 0;
+    }
+
+    .flex__geroi {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        align-content: center;
+    }
+
+    .red_titgero {
+        font-size: 30px;
+        width: 300px;
+        line-height: 40px;
+        display: block;
+        margin: auto;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .text_pod_tit_geroi {
+        text-align: center;
+        font-size: 18px;
+        width: 313px;
+        display: block;
+        margin: auto;
+    }
+
+    .but_geroi {
+        display: block;
+        margin: auto;
+        margin-top: 20px;
+    }
+}

@@ -168,3 +168,103 @@
         margin-left: 35px;
     }
 }
+
+@media(max-width: 576px) and (min-width:321px) {
+    .box_flex_pricing {
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img_red_pricing {
+        width: 300px;
+        height: 300px;
+        display: block;
+        margin: auto;
+    }
+
+    .img_red_pricing_red {
+        height: 270px;
+    }
+
+    .titl_boks {
+        text-align: center;
+        width: auto;
+        margin-left: 0;
+    }
+
+    .p_pricing_text {
+        text-align: center;
+        width: 340px;
+        margin-left: 0;
+    }
+
+    .button_pricing {
+        display: block;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    .box_pricing {
+        margin: 20px;
+    }
+
+
+    .p_contactus {
+        margin-top: 300px;
+    }
+
+    .h1_titl {
+        text-align: center;
+    }
+
+    .img_contactus {
+        position: absolute;
+        margin: auto;
+        margin-top: 150px;
+        margin-left: 150px;
+    }
+
+    .p_contactus {
+        text-align: center;
+    }
+}
+
+@media(max-width: 322px) {
+    .box_flex_pricing {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .titl_boks {
+        text-align: center;
+        margin-left: 0;
+        line-height: 30px;
+        width: 320px;
+        font-size: 25px;
+    }
+
+    .img_red_pricing {
+        display: block;
+        margin: auto;
+    }
+
+    .p_pricing_text {
+        text-align: center;
+        width: 300px;
+        display: block;
+        margin: auto;
+        margin-top: 10px;
+    }
+
+    .button_pricing {
+        display: block;
+        margin: auto;
+        margin-top: 10px;
+    }
+
+    .box_pricing {
+        margin: 0px 0px 30px;
+    }
+}
