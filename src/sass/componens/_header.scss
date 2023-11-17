@@ -421,6 +421,10 @@ header {
 
 
 @media(max-width: 322px) {
+    .pos_img_red {
+        display: none;
+    }
+
     .bitn_red_header {
         margin: -10px 20px 20px;
     }

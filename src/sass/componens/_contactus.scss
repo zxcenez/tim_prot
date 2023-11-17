@@ -119,3 +119,38 @@
         width: 500px;
     }
 }
+
+@media(max-width: 322px) {
+    .h1_titl {
+        margin-bottom: 280px;
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .img_contactus {
+        position: absolute;
+        width: 259px;
+        height: 280px;
+        top: 4630px;
+        left: 37px;
+    }
+
+    .p_contactus {
+        width: 360px;
+        text-align: center;
+    }
+
+
+    .button_contactus {
+        display: block;
+        margin: auto;
+        width: 300px;
+    }
+
+    .input_contactus {
+        display: block;
+        margin: auto;
+        width: 300px;
+        margin-bottom: 10px;
+    }
+}

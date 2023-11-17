@@ -81,9 +81,9 @@
         left: 510px;
     }
 
-    body {
-        background-color: aquamarine;
-    }
+    // body {
+    //     background-color: aquamarine;
+    // }
 }
 
 @media(max-width: 1024px) and (min-width:992px) {
@@ -144,15 +144,15 @@
         left: 230px;
     }
 
-    body {
-        background-color: rgb(199, 159, 236);
-    }
+    // body {
+    //     background-color: rgb(199, 159, 236);
+    // }
 }
 
 @media(max-width: 576px) and (min-width:321px) {
-    body {
-        background-color: rgba(95, 158, 160, 0.444);
-    }
+    // body {
+    //     background-color: rgba(95, 158, 160, 0.444);
+    // }
 
     .img_glav_geroi_red {
         height: 400px;
