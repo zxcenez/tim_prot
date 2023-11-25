@@ -1,107 +1,180 @@
-// .pp {
-//     position: absolute;
-//     color: #8F95A5;
-//     width: 635px;
-//     margin-top: 100px;
-//     right: 755px;
-// }
+.about {
+    margin-bottom: 100px;
+}
 
-// .Aboutus {
-//     position: absolute;
-//     color: #000;
-//     right: 1200px;
-//     background-clip: border-box;
-//     background-image: none;
-//     font-family: Poppins;
-//     font-size: 48px;
-//     font-style: normal;
-//     font-weight: 600;
-//     line-height: 80px;
-//     /* 166.667% */
-// }
+.flex_abaut {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-// .wow {
-//     position: absolute;
-//     margin-top: 200px;
-//     right: 1290px;
-//     color: #2A3246;
-//     font-family: Poppins;
-//     font-size: 48px;
-//     font-style: normal;
-//     font-weight: 600;
-//     line-height: 80px;
-//     /* 166.667% */
-
-// }
-
-// .waw {
-//     position: absolute;
-//     right: 1150px;
-//     margin-top: 200px;
-//     color: #2A3246;
-//     font-family: Poppins;
-//     font-size: 48px;
-//     font-style: normal;
-//     font-weight: 600;
-//     line-height: 80px;
-//     /* 166.667% */
-// }
-
-// .www {
-//     position: absolute;
-//     color: #2A3246;
-//     right: 1000px;
-//     margin-top: 200px;
-//     font-family: Poppins;
-//     font-size: 48px;
-//     font-style: normal;
-//     font-weight: 600;
-//     line-height: 80px;
-//     /* 166.667% */
-// }
+.nomber_flex {
+    display: flex;
+}
 
 
-// .photo {
-//     position: absolute;
-//     right: 100px;
-//     width: 500px;
-//     height: 500px;
-//     margin-top: -100px;
-// }
 
-// .Pupils {
-//     position: absolute;
-//     color: #8F95A5;
-//     margin-top: 240px;
-//     right: 1300px;
-//     font-family: Poppins;
-//     font-size: 20px;
-//     font-style: normal;
-//     font-weight: 400;
-//     line-height: normal;
-// }
+.titl_numberbox {
+    color: #8F95A5;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
 
+.red_nymber {
+    color: #2A3246;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 80px;
+    text-align: center;
+}
 
-// .Teachers {
-//     position: absolute;
-//     color: #8F95A5;
-//     right: 1130px;
-//     margin-top: 220px;
-//     font-family: Poppins;
-//     font-size: 20px;
-//     font-style: normal;
-//     font-weight: 400;
-//     line-height: normal;
-// }
+.title_about_red {
+    color: #000;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 80px;
+}
 
-// .languages {
-//     position: absolute;
-//     color: #8F95A5;
-//     right: 900px;
-//     margin-top: 203px;
-//     font-family: Poppins;
-//     font-size: 20px;
-//     font-style: normal;
-//     font-weight: 400;
-//     line-height: normal;
-// }
+.p_div_about_textmini {
+    color: #8F95A5;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 445px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.dib_boxtext_titl {
+    margin-right: 100px;
+    width: 500px;
+    height: 300px;
+}
+
+.nomber {
+    margin: 10px 30px;
+}
+
+.red_nymber {
+    text-align: center;
+}
+
+.img_red_folars {
+    width: 430px;
+    height: 430px;
+}
+
+// media
+@media(max-width: 1920px) and (min-width:1025px) {
+    .dib_boxtext_titl {
+        margin-right: 150px;
+    }
+}
+
+@media(max-width: 992px) and (min-width:767px) {
+    .dib_boxtext_titl {
+        margin-right: 0px;
+    }
+}
+
+@media(max-width: 767px) {
+    .title_about_red {
+        font-size: 30px;
+    }
+
+    .p_div_about_textmini {
+        margin-top: 0px;
+        font-size: 18px;
+        width: 345px;
+        margin-bottom: 0px;
+    }
+
+    .red_nymber {
+        font-size: 22px;
+        margin-bottom: -20px;
+    }
+
+    .titl_numberbox {
+        font-size: 16px;
+    }
+
+    .nomber {
+        margin: -10px 20px;
+    }
+
+    .img_red_folars {
+        width: 300px;
+        height: 300px;
+    }
+
+    .dib_boxtext_titl {
+        width: 340px;
+        margin-right: 50px;
+    }
+}
+
+@media(max-width: 576px) and (min-width:321px) {
+    .flex_abaut {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .title_about_red {
+        text-align: center;
+        margin-bottom: 300px;
+    }
+
+    .img_folars {
+        position: absolute;
+        top: 2390px;
+        left: 120px;
+    }
+
+    .p_div_about_textmini {
+        margin: auto;
+        display: block;
+        text-align: center;
+        width: 350px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .nomber_flex {
+        justify-content: center;
+    }
+}
+
+@media(max-width: 322px) {
+    .about {
+        margin-top: 550px;
+    }
+
+    .p_div_about_textmini {
+        width: 260px;
+        margin-left: 55px;
+    }
+
+    .img_folars {
+        top: 3290px;
+        left: 0px;
+    }
+
+    .nomber_flex {
+        flex-direction: column;
+    }
+
+    .nomber {
+        margin: 0px 0px 0px 30px;
+    }
+}

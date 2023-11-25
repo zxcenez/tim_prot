@@ -156,9 +156,9 @@
 }
 
 @media(max-width: 1920px) and (min-width:1025px) {
-    // .conteiner {
-    //     margin: 0 50vh
-    // }
+    .conteiner {
+        margin: 0px 25vh;
+    }
 }
 
 @media(max-width: 1496px) and (min-width:1025px) {
@@ -321,6 +321,8 @@
 @media(max-width: 576px) and (min-width:321px) {
     .div_red_flex {}
 
+
+
     .conteiner {
         margin: 0 5vh;
     }
@@ -329,9 +331,9 @@
         flex-wrap: 0;
     }
 
-    .red_boxbut5 {
-        margin-top: 193px;
-    }
+    // .red_boxbut5 {
+    //     margin-top: 193px;
+    // }
 
     .img_box1__skil {
         width: 245px;
@@ -373,6 +375,11 @@
 @media(max-width: 322px) {
     .conteiner {
         margin: auto;
+    }
+
+    .box3_skil {
+        top: 2685px;
+        left: 10px;
     }
 
     .div_red_flex {
