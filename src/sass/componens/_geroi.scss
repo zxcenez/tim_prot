@@ -17,7 +17,19 @@
     font-style: normal;
     font-weight: 600;
     line-height: 60px;
+
+    opacity: 0;
+    transform: translateY(20px);
+    filter: blur(2px);
 }
+
+.red_titgero.element-show {
+    opacity: 1;
+    transition: all 1.0s;
+    transform: translateY(0%);
+    filter: blur(0);
+}
+
 
 .text_pod_tit_geroi {
     color: #8F95A5;
@@ -27,12 +39,36 @@
     font-weight: 400;
     line-height: normal;
     margin-top: 25px;
+
+    opacity: 0;
+    transform: translateY(20px);
+    filter: blur(3px);
+}
+
+.text_pod_tit_geroi.element-show {
+    opacity: 1;
+    transition: all 0.9s;
+    transform: translateY(0%);
+    filter: blur(0);
 }
 
 
 .img_glav_geroi_red {
     height: 500px;
     padding-left: 100px;
+
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 1.5s;
+    filter: blur(3px);
+}
+
+.img_glav_geroi_red.element-show {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    filter: blur(0);
+
+    transform: translateY(0);
 }
 
 .but_geroi {
@@ -51,6 +87,18 @@
     line-height: normal;
     margin: 10px;
     margin-top: 35px;
+
+    opacity: 1;
+    transform: translateY(30px);
+    transition: 1.5s;
+    filter: blur(2px);
+}
+
+.but_geroi.element-show {
+    opacity: 1;
+    filter: blur(0);
+
+    transform: translateY(0);
 }
 
 .but_geroi:hover {
@@ -64,6 +112,17 @@
     position: absolute;
     left: 520px;
     top: 220px;
+
+    opacity: 0;
+    transform: translateY(-20px);
+    filter: blur(3px);
+}
+
+.pos_img_red.element-show {
+    opacity: 1;
+    transition: all 0.9s;
+    transform: translateY(0%);
+    filter: blur(0);
 }
 
 

@@ -6,6 +6,17 @@
     width: 1200px;
     border: solid 1px #C4C4C4;
     margin-bottom: 20px;
+
+    opacity: 0;
+    transform: translateY(20px);
+    filter: blur(2px);
+}
+
+.solid_footer.element-show {
+    opacity: 1;
+    transition: all 1.0s;
+    transform: translateY(0%);
+    filter: blur(0);
 }
 
 .red_foot_logo_footer {
@@ -26,7 +37,30 @@
 
 .li_foot_colo {
     color: #8F95A5;
+    opacity: 0;
+    transform: translateY(20px);
+    filter: blur(2px);
+}
 
+.li_foot_colo.element-show {
+    opacity: 1;
+    transition: all 1.0s;
+    transform: translateY(0%);
+    filter: blur(0);
+}
+
+.li_foot_colo:nth-of-type(2).element-show {
+    opacity: 1;
+    transition: all 2.0s;
+    filter: blur(0);
+    transform: translateY(0%);
+}
+
+.li_foot_colo:nth-of-type(3).element-show {
+    opacity: 1;
+    transition: all 2.0s;
+    filter: blur(0);
+    transform: translateY(0%);
 }
 
 .li_footer_red {

@@ -14,8 +14,17 @@
     line-height: 80px;
     text-align: center;
     padding: 20px;
+    opacity: 0;
+    transform: translateY(-100px);
+    filter: blur(2px);
 }
 
+.h1_titl_pricing.element-show {
+    opacity: 1;
+    transition: all 1.0s;
+    transform: translateY(0%);
+    filter: blur(0);
+}
 
 // text_title
 // img
@@ -55,9 +64,31 @@
 //box
 .box_pricing {
     margin: 30px;
-
+    opacity: 0;
+    transform: translateY(20px);
+    filter: blur(3px);
 }
 
+.box_pricing.element-show {
+    opacity: 1;
+    transition: all 1.0s;
+    filter: blur(0);
+    transform: translateY(0%);
+}
+
+.box_pricing:nth-of-type(2).element-show {
+    opacity: 1;
+    transition: all 1.0s;
+    filter: blur(0);
+    transform: translateY(5%);
+}
+
+.box_pricing:nth-of-type(2).element-show {
+    opacity: 1;
+    transition: all 1.0s;
+    filter: blur(0);
+    transform: translateY(0%);
+}
 
 //box
 // button_pricing

@@ -7,6 +7,19 @@
     width: 470px;
     height: 420px;
     margin-right: 50px;
+
+    opacity: 0;
+    transform: translateY(100px);
+    transition: all 1.5s;
+    filter: blur(3px);
+}
+
+.img_contactus.element-show {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    filter: blur(0);
+
+    transform: translateY(0);
 }
 
 // flex
@@ -24,6 +37,20 @@
     font-style: normal;
     font-weight: 600;
     line-height: 80px;
+
+    opacity: 0;
+    transform: translateX(-100px);
+    transition: all 1.5s;
+    filter: blur(2px);
+}
+
+.h1_titl.element-show {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    filter: blur(0);
+
+    transform: translateY(0);
 }
 
 // text
@@ -35,8 +62,19 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-
     width: 680px;
+
+    opacity: 0;
+    transform: translateX(100px);
+    transition: all 1.5s;
+    filter: blur(3px);
+}
+
+.p_contactus.element-show {
+    opacity: 1;
+
+    filter: blur(0);
+    transform: translateY(0);
 }
 
 // input>button
@@ -80,8 +118,18 @@
 
 .but_input_contactus {
     padding: 20px;
+
+    opacity: 0;
+    transform: translateY(20px);
+    filter: blur(2px);
 }
 
+.but_input_contactus.element-show {
+    opacity: 1;
+    transition: all 1.0s;
+    transform: translateY(0%);
+    filter: blur(0);
+}
 
 @media(max-width: 992px) and (min-width:767px) {
     .contactus {
